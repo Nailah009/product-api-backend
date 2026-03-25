@@ -28,29 +28,8 @@ Aplikasi ini merupakan backend REST API yang digunakan untuk mengelola data prod
 - H2 Database  
 - Maven  
 - Thunder Client (Testing API)
-
+  
 ---
-
-## 📂 Struktur Project
-
-product-api-backend/
-├── src/
-│   ├── main/java/com/example/productapi/
-│   │   ├── controller/
-│   │   ├── dto/
-│   │   ├── exception/
-│   │   ├── model/
-│   │   ├── repository/
-│   │   ├── service/
-│   │   └── ProductApiApplication.java
-│   ├── main/resources/
-│   │   └── application.properties
-│   └── test/java/com/example/productapi/
-│       ├── controller/
-│       ├── repository/
-│       └── service/
-├── pom.xml
-└── README.md
 
 ---
 
@@ -74,17 +53,14 @@ DELETE /api/products/{id}
 
 POST /api/products
 
-```markdown
-Request:
-```json
+### Request
 {
   "name": "Laptop",
   "price": 15000000,
   "stock": 5
 }
 
-```markdown
-Response:
+### Response
 {
   "id": 1,
   "name": "Laptop",
@@ -92,37 +68,20 @@ Response:
   "stock": 5
 }
 
----
-
 ## ⚠️ Validasi Data
-
-- Nama produk tidak boleh kosong  
-- Harga harus lebih besar dari 0  
-- Stok tidak boleh negatif  
-
----
+- Nama produk tidak boleh kosong
+- Harga harus lebih besar dari 0
+- Stok tidak boleh negatif
 
 ## ▶️ Cara Menjalankan Project
-
-```bash
 mvn spring-boot:run
 
-
----
-
 ## 🧪 Testing API
-
 Testing menggunakan Thunder Client untuk GET, POST, PUT, dan DELETE.
 
----
-
 ## 📊 Database
-
-Menggunakan H2 Database (in-memory).  
+Menggunakan H2 Database (in-memory).
 Data akan hilang saat aplikasi dihentikan.
 
----
-
 ## ✅ Kesimpulan
-
 Backend API berhasil dibangun menggunakan Spring Boot dan seluruh endpoint CRUD berjalan dengan baik.
