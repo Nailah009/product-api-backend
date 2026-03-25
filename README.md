@@ -1,6 +1,12 @@
 # Product API - Spring Boot Source
 
-Source ini mengikuti modul praktikum Fullstack EAI untuk backend Product API.
+Alfredo Radhinal Mukhtar - 235150201111021
+Nailah Ansaria - 235150201111009
+Muhammad Bagas Anugrah - 235150201111008
+Irmalia Dwi Kautsar - 235150200111013
+
+
+Source ini mengikuti Modul Praktikum Fullstack Enterprise Application Integration untuk backend Product API.
 
 ## Fitur
 - Entity `Product`
