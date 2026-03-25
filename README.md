@@ -31,8 +31,6 @@ Aplikasi ini merupakan backend REST API yang digunakan untuk mengelola data prod
   
 ---
 
----
-
 ## 🌐 Base URL
 
 http://localhost:8080
