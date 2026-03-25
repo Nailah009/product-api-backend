@@ -1,11 +1,9 @@
 # Product API - Spring Boot
-
-Backend API sederhana untuk mengelola data produk menggunakan Spring Boot. Project ini dibuat berdasarkan Modul Praktikum Fullstack Enterprise Application Integration.
+Project ini dibuat berdasarkan Modul Praktikum Fullstack Enterprise Application Integration.
 
 ---
 
 ## 👥 Disusun Oleh (Kelompok 7)
-
 - Alfredo Radhinal Mukhtar - 235150201111021  
 - Nailah Ansaria - 235150201111009  
 - Muhammad Bagas Anugrah - 235150201111008  
@@ -14,13 +12,24 @@ Backend API sederhana untuk mengelola data produk menggunakan Spring Boot. Proje
 ---
 
 ## 🚀 Deskripsi Project
-
 Aplikasi ini merupakan backend REST API yang digunakan untuk mengelola data produk. Backend ini mampu menerima request dari client, memproses data, dan memberikan response dalam format JSON. Data produk disimpan menggunakan database H2 (in-memory database) yang berjalan selama aplikasi aktif.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 📊 Fitur
+- Entity `Product`
+- Repository JPA
+- Service layer
+- REST Controller
+- Validasi request
+- Exception handler global
+- Endpoint CRUD: GET all, GET by id, POST, PUT, DELETE
+- H2 database
+- Unit test controller, service, repository
 
+--- 
+
+## 🛠️ Teknologi yang Digunakan
 - Java 17  
 - Spring Boot  
 - Spring Web  
@@ -39,11 +48,11 @@ http://localhost:8080
 
 ## 📌 Endpoint API
 
-GET    /api/products  
-GET    /api/products/{id}  
-POST   /api/products  
-PUT    /api/products/{id}  
-DELETE /api/products/{id}  
+- `GET /api/products`
+- `GET /api/products/{id}`
+- `POST /api/products`
+- `PUT /api/products/{id}`
+- `DELETE /api/products/{id}`
 
 ---
 
@@ -52,19 +61,23 @@ DELETE /api/products/{id}
 POST /api/products
 
 ### Request
+ ```bash
 {
   "name": "Laptop",
   "price": 15000000,
   "stock": 5
 }
+```
 
 ### Response
+```bash
 {
   "id": 1,
   "name": "Laptop",
   "price": 15000000,
   "stock": 5
 }
+```
 
 ## ⚠️ Validasi Data
 - Nama produk tidak boleh kosong
@@ -72,14 +85,12 @@ POST /api/products
 - Stok tidak boleh negatif
 
 ## ▶️ Cara Menjalankan Project
-mvn spring-boot:run
+ ```bash
+ mvn spring-boot:run
+ ```
 
-## 🧪 Testing API
+## 🧪 Catatan 
 Testing menggunakan Thunder Client untuk GET, POST, PUT, dan DELETE.
-
-## 📊 Database
 Menggunakan H2 Database (in-memory).
 Data akan hilang saat aplikasi dihentikan.
-
-## ✅ Kesimpulan
 Backend API berhasil dibangun menggunakan Spring Boot dan seluruh endpoint CRUD berjalan dengan baik.
