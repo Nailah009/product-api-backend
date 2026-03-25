@@ -74,13 +74,16 @@ DELETE /api/products/{id}
 
 POST /api/products
 
+```markdown
 Request:
+```json
 {
   "name": "Laptop",
   "price": 15000000,
   "stock": 5
 }
 
+```markdown
 Response:
 {
   "id": 1,
@@ -101,7 +104,9 @@ Response:
 
 ## ▶️ Cara Menjalankan Project
 
+```bash
 mvn spring-boot:run
+
 
 ---
 
