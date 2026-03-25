@@ -1,8 +1,6 @@
 # Product API - Spring Boot
 
-Backend API sederhana untuk mengelola data produk menggunakan Spring Boot.
-
-Project ini dibuat berdasarkan modul praktikum Fullstack Enterprise Application Integration.
+Backend API sederhana untuk mengelola data produk menggunakan Spring Boot. Project ini dibuat berdasarkan Modul Praktikum Fullstack Enterprise Application Integration.
 
 ---
 
@@ -17,10 +15,7 @@ Project ini dibuat berdasarkan modul praktikum Fullstack Enterprise Application 
 
 ## 🚀 Deskripsi Project
 
-Aplikasi ini merupakan backend REST API yang digunakan untuk mengelola data produk.  
-Backend ini mampu menerima request dari client, memproses data, dan memberikan response dalam format JSON.
-
-Data produk disimpan menggunakan database H2 (in-memory database) yang berjalan selama aplikasi aktif.
+Aplikasi ini merupakan backend REST API yang digunakan untuk mengelola data produk. Backend ini mampu menerima request dari client, memproses data, dan memberikan response dalam format JSON. Data produk disimpan menggunakan database H2 (in-memory database) yang berjalan selama aplikasi aktif.
 
 ---
 
