@@ -90,7 +90,7 @@ POST /api/products
  ```
 
 ## 🧪 Catatan 
-Testing menggunakan Thunder Client untuk GET, POST, PUT, dan DELETE.
-Menggunakan H2 Database (in-memory).
-Data akan hilang saat aplikasi dihentikan.
-Backend API berhasil dibangun menggunakan Spring Boot dan seluruh endpoint CRUD berjalan dengan baik.
+- Testing menggunakan Thunder Client untuk GET, POST, PUT, dan DELETE.
+- Menggunakan H2 Database (in-memory).
+- Data akan hilang saat aplikasi dihentikan.
+
