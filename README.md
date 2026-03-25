@@ -39,7 +39,3 @@ Source ini mengikuti Modul Praktikum Fullstack Enterprise Application Integratio
 mvn test
 ```
 
-## Catatan
-Environment pembuatan artefak ini tidak menyediakan Maven dan dependency resolver eksternal,
-sehingga bukti running pada laporan menggunakan folder `product-api-runtime-demo` yang memiliki
-kontrak endpoint yang sama untuk demonstrasi lokal.
